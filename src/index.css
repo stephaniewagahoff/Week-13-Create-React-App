@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../public/13app-bg.jpg");
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#loginform {
+  height: 100vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.card-header {
+  background-color:darkslateblue;
+}
+
+.navbar {
+  background-color: darkslateblue;
+}
+
+.nav-link:hover {
+  background-color: slateblue;
+}
+
+.btn {
+  background-color: darkslateblue;
+}
+
+.btn:hover {
+  background-color: slateblue;
 }
